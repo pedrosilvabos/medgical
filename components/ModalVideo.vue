@@ -14,7 +14,7 @@
           Fechar vídeo
         </button>
         <button
-          @click="closeAction"
+          @click="tryOutAction"
           class="text-white/80 top-5 flex items-center gap-2 justify-center text-sm font-semibold w-full right-5 py-2 bg-slate-800 rounded-lg hover:bg-slate-700"
         >
           Experimentar grátis
@@ -137,6 +137,13 @@ export default {
     },
     closeAction() {
       this.$store.commit("changeVideoState", false);
+    },
+    tryOutAction() {
+      this.closeAction();
+      setTimeout(() => {
+        this.$store.commit('changeModalState', true)
+      }, 150);
+      this.$store.commit('modalReason', this.cta)
     },
   },
   onBeforeUnmount() {

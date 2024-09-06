@@ -80,6 +80,7 @@
         </div>
         <MedgicalStats />
         <MedgicalReferences/> 
+        <MedgicalVideo />
         <div id="features" class="section-features relative">
             <div class="container px-5">
                 <div
