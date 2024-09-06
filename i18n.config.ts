@@ -464,7 +464,6 @@ export default defineI18nConfig(() => ({
             hospital_license_point5: 'Dedicated support team by email and phone',
             hospital_license_point6: 'Quantity and commitment discounts',
         }
-
       }
     }
   }))
