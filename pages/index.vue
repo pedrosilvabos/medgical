@@ -800,11 +800,7 @@ export default defineNuxtComponent({
     transition: transform 1s;
     box-shadow: calc(var(--x, 0) / 2.1) calc(var(--y, 0) / 2.1) 124px #51a7ee43, calc(var(--x, 0) / 2.1) calc(var(--y, 0) / 2.1) 28px #51a7ee3b, 0 0 1px #51a7ee5b;
 }
-/* Old code 
-.paralax .asr {
-    transition: transform 1s;
-    box-shadow: calc(var(--x, 0) / 2.1) calc(var(--y, 0) / 2.1) 124px #7036ec7a, calc(var(--x, 0) / 2.1) calc(var(--y, 0) / 2.1) 38px #4e24da5e, 0 0 1px #ffffff87;
-}*/
+
 
 .paralax1 {
     translate: calc(var(--x, 0) / 4) calc(var(--y, 0) / 3);

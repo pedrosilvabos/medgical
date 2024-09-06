@@ -57,7 +57,7 @@
             <div>
                 <div
                     class="text-center mb-2 text-3xl font-medium justify-center">
-                    >1000 </div>
+                    >1000</div>
                         <div class="text-sm text-center text-white/70 leading-4 w-52 mx-auto">
                             {{ $t('references.medgical_consultations') }}
                         </div>
