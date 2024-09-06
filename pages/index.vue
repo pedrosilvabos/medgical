@@ -78,10 +78,9 @@
                 </div>
             </div>
         </div>
-        <MedgicalStats />
         <MedgicalReferences/> 
         <MedgicalVideo />
-        <div id="features" class="section-features relative">
+        <div id="features" class="section-features relative mb-40">
             <div class="container px-5">
                 <div
                     class="grid-features mx-auto max-w-4xl grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
@@ -412,7 +411,7 @@
                 </div>
             </div>
         </div>
-
+        <MedgicalStats class="mb-10" />
         <div class="section-feedback">
             <div class="my-32">
                 <div class="mx-auto w-full max-w-2xl flex flex-col mb-10">
