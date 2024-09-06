@@ -79,6 +79,7 @@
             </div>
         </div>
         <MedgicalStats />
+        <MedgicalReferences/> 
         <div id="features" class="section-features relative">
             <div class="container px-5">
                 <div

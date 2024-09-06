@@ -169,6 +169,12 @@ export default defineI18nConfig(() => ({
             timetodocumentation: 'tempo gasto a validar os documentos gerados*',
             footnote: '*80% das respostas a questionário de satisfação da Medgical indicam que os médicos gastam menos de 1 minuto a validar os documentos gerados com o nosso software'
         },
+        references: {
+          portuguese_ai_medicalnotes: 'Sistema em Portugal de notas médicas por IA',
+          specialized_language: 'Especializado em Língua Portuguesa',
+          specialised_medical_reports: 'Especialidades médicas e relatórios médicos',
+          medgical_consultations: 'Consultas médicas realizadas com Medgical',
+        },
         reportanim: {
             title: 'CONSULTA DE PACING',
             transcription: 'Bateria com longevidade de 6 anos, limiar auricular 0,75 e limiar ventricular 1, mantém-se estável, onda P 0,7 e onda R 10, impedância auricular de 390 e ventricular de 380 ...'
@@ -421,6 +427,14 @@ export default defineI18nConfig(() => ({
             lesserrors: 'quality rating of generated documents',
             timetodocumentation: 'time spent verifying the generated documents*',
             footnote: '*80% of Medgical satisfaction survey responses indicate that doctors spend less than 1 minute documenting the consultation with our software'
+        },
+        references: {
+          portuguese_ai_medicalnotes1: 'Medical Notes system in ',
+          portuguese_ai_medicalnotes2: 'Portugal',
+          portuguese_ai_medicalnotes3: ' using AI',
+          specialized_language: 'Specialized in Portuguese language ',
+          specialised_medical_reports: 'Medical specialties and medical reports',
+          medgical_consultations: 'real consultations sessions with Medgical',
         },
         reportanim: {
             title: 'PACING CONSULTATION',
